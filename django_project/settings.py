@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-m3$vj6wt$t$wmfo!j7+%uh7f9%g%61t_2-+z1(zl#xm^ys$n!z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -56,7 +56,6 @@ TEMPLATES = [
     },
 ]
 
-print(BASE_DIR, 'templates')
 WSGI_APPLICATION = 'django_project.wsgi.application'
 
 
